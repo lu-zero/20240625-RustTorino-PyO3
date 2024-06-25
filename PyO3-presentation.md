@@ -21,13 +21,17 @@ style: |
     }
 ---
 
-![bg left:40% 80%](assets/rust-torino.svg)
+![bg left:30% 80%](assets/rust-torino.svg)
+![bg vertical 80%](assets/python-torino.svg)
+<div>
 
 # <!-- fit --> Wrapping Rust
 ## with PyO3 and Maturin
 
+</div>
+
 ---
-<!-- footer: '![height:1.5em](assets/rust-torino.svg) **Wrapping Rust with PyO3 and Maturin** - Luca Barbato' -->
+<!-- footer: '![height:1.5em](assets/rust-torino.svg) ![height:1.5em](assets/python-torino.svg) **Wrapping Rust with PyO3 and Maturin** - Luca Barbato' -->
 # <!-- fit --> Intro
 
 ---
@@ -153,7 +157,7 @@ class S:
 * [maturin](https://crates.io/crates/maturin) is a Rust crate that supports [PEP 621](https://peps.python.org/pep-0621/).
     * So you can build, package and ship to [pypi](https://pypi.org) your Rust code.
     * Incidentally it ship [itself](https://pypi.org/project/maturin) to pypi
-    * And since it supports `PEP 621` you can use it with the usual tools (e.g. [build](https://pypi.org/project/build)
+    * And since it supports `PEP 621` you can use it with the usual tools (e.g. [build](https://pypi.org/project/build))
 * [PyO3](https://crates.io/crates/pyo3) is a bridge between Python and Rust that goes both direction
     * You can expose Rust to Python
     * You can call Python code from Rust
